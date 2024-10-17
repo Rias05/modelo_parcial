@@ -37,7 +37,7 @@ public class Main {
                taller.agregarVehiculo(vehiculo4);
                System.out.println("3-2");
 
-               VehiculoSUV  vehiculo5 = new VehiculoSUV ("LMN1112","Ford Explorer2",3000.0,true);
+               VehiculoSUV  vehiculo5 = new VehiculoSUV ("LMN1111","Ford Explorer2",3000.0,true);
                taller.agregarVehiculo(vehiculo5);
                System.out.println("4-1");
                List<Vehiculo> disponibles = taller.traerVehiculosDisponibles();
